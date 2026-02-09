@@ -1,6 +1,6 @@
 # Node.js
 node_modules/
-package-lock.json
+# package-lock.json wird für GitHub Actions benötigt
 
 # Generierte Dateien (für lokale Entwicklung)
 # pdfs.json wird für GitHub Pages benötigt, daher nicht ignorieren
