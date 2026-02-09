@@ -1,0 +1,20 @@
+# Node.js
+node_modules/
+package-lock.json
+
+# Generierte Dateien (für lokale Entwicklung)
+# pdfs.json wird für GitHub Pages benötigt, daher nicht ignorieren
+
+# Betriebssystem-Dateien
+.DS_Store
+Thumbs.db
+
+# Editor-Dateien
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporäre Dateien
+*.tmp
+*.log
