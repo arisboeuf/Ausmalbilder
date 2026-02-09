@@ -37,12 +37,20 @@ Die PDFs werden alphabetisch sortiert angezeigt.
 
 ## 🌐 GitHub Pages Deployment
 
-Diese App kann direkt auf GitHub Pages gehostet werden:
+Diese App ist automatisch für GitHub Pages eingerichtet:
 
-1. Repository auf GitHub hochladen
-2. GitHub Pages aktivieren
-3. **Wichtig:** Vor dem Commit `npm run list-pdfs` ausführen, damit `pdfs.json` aktualisiert wird
-4. `pdfs.json` sollte NICHT in `.gitignore` sein (wird für GitHub Pages benötigt)
+1. **GitHub Pages aktivieren:**
+   - Gehe zu Repository Settings > Pages
+   - Source: "GitHub Actions" auswählen
+   - Die App wird automatisch bei jedem Push auf `master` deployed
+
+2. **Automatisches Deployment:**
+   - Der GitHub Actions Workflow (`.github/workflows/deploy.yml`) aktualisiert automatisch die PDF-Liste
+   - Keine manuellen Schritte nötig!
+
+3. **PDFs hinzufügen:**
+   - PDFs in den `pdfs/` Ordner legen
+   - Commit und Push → GitHub Actions erledigt den Rest
 
 ## 📝 Hinweise
 
