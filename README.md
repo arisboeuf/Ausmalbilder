@@ -2,6 +2,8 @@
 
 Eine einfache Web-App zum Durchsuchen und Herunterladen von Ausmalbildern (PDFs).
 
+**🌐 [Web-App öffnen](https://arisboeuf.github.io/Ausmalbilder/)**
+
 ## 📁 Projektstruktur
 
 ```
